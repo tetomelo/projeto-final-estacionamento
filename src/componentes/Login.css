@@ -1,0 +1,42 @@
+.container {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.from {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.input {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #ddd;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    padding: 12px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.link {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
