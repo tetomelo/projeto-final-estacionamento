@@ -1,0 +1,10 @@
+.principal {
+  background-color: black;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: white;
+}
+
+

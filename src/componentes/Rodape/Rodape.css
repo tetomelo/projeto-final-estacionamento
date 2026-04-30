@@ -1,9 +1,15 @@
 .rodape {
+  background-color: rgb(224, 127, 0);
   font-size: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
+}
+
+main {
+  flex: 1; /* 🔥 faz o conteúdo ocupar o espaço disponível */
+  padding: 20px;
 }
 
 

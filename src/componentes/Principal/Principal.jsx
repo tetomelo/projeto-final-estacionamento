@@ -1,10 +1,17 @@
 import "./Principal.css";
+import { useNavigate } from "react-router-dom";
 
-function Principal() {
+function Principal({children}) {
+  const navigate = useNavigate();
+
   return (
-    <div className="Principal">
-      <h1>Principal</h1>
-    </div>
+    <main className="principal__root">
+      <div className="principal__titulo">
+
+      </div>
+
+      {children}
+    </main>
   );
 }
 

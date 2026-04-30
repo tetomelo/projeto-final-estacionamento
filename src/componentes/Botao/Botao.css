@@ -1,0 +1,15 @@
+.botao__root{
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.botao__primario {
+  background-color: black;
+  color: darkgray;
+}
+
+.botao__secundario {
+  background-color: black;
+  color: darkgray;
+}
