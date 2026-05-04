@@ -12,7 +12,6 @@ function CampoCustomizado({ label, obrigatorio, opcoes, ...props }) {
       {opcoes && (
         <select className="campo-customizado__input" {...props}>
           <option key="" value="">
-            Selecione...
           </option>
           {opcoes.map((opcao) => (
             <option key={opcao.valor} value={opcao.valor}>

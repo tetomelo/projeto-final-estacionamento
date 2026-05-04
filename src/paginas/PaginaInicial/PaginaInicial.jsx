@@ -9,11 +9,11 @@ function PaginaInicial() {
 
     return (
         <Principal>
-    <Botao tipo="primario" onClick={() => navigate("/cadastro-veiculo")}>
+    <Botao tipo="primario" aoClicar={() => navigate("/cadastro-veiculo")}>
         Cadastro de veículos
     </Botao>
 
-    <Botao tipo="secundario" onClick={() => navigate("/lista-veiculos")}>
+    <Botao tipo="secundario" aoClicar={() => navigate("/lista-veiculos")}>
         Lista dos veículos
     </Botao>
 
