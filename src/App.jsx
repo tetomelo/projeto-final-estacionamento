@@ -9,7 +9,7 @@ import Rodape from "./componentes/Rodape/Rodape";
 
 import PaginaInicial from "./paginas/PaginaInicial/PaginaInicial";
 import CadastroVeiculo from "./paginas/CadastroVeiculo/CadastroVeiculo";
-
+import ListaVeiculos from "./paginas/ListaVeiculos/ListaVeiculos";
 
 
 const router = createBrowserRouter([
@@ -18,10 +18,13 @@ const router = createBrowserRouter([
     element: <PaginaInicial />
   },
   {
+    path: "/lista-veiculos",
+    element: <ListaVeiculos />
+  },
+  {
     path: "/cadastro-veiculo",
     element: <CadastroVeiculo />
   }
-
 ]);
 
 function App() {

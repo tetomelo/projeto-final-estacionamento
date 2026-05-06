@@ -7,9 +7,6 @@
   color: black;
 }
 
-main {
-  flex: 1; /* 🔥 faz o conteúdo ocupar o espaço disponível */
-  padding: 20px;
-}
+
 
 
